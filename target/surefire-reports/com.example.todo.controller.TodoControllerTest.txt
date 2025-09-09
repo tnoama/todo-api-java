@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: com.example.todo.controller.TodoControllerTest
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.13 s <<< FAILURE! - in com.example.todo.controller.TodoControllerTest
+createTodo_invalidTitle_throwsException  Time elapsed: 0.021 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Expected org.springframework.web.server.ResponseStatusException to be thrown, but nothing was thrown.
+	at com.example.todo.controller.TodoControllerTest.createTodo_invalidTitle_throwsException(TodoControllerTest.java:34)
+
